@@ -1,17 +1,17 @@
 # Bullet List Formatter
 
-Bullet List Formatter is a command-line tool that takes an HTML-formatted bullet list from the clipboard, converts it to a plain-text formatted list with tabs for indentation, and copies the result back to the clipboard. The tool also retains any non-bullet text in the input.
+Bullet List Formatter is a command-line tool that takes an HTML-formatted bullet list from the clipboard, such as a list copied from Microsoft Word, converts it to a plain-text formatted list with tabs for indentation, and copies the result back to the clipboard. The tool also retains any non-bullet text in the input.
 
 ## Features
 
-- Extracts bullet lists from HTML content in the clipboard
+- Extracts bullet lists from HTML content in the clipboard, including lists copied from Microsoft Word
 - Preserves list indentation using tabs
 - Keeps non-bullet text in the input
 - Copies the formatted plain-text list back to the clipboard
 
 ## Usage
 
-1. Copy an HTML-formatted bullet list to the clipboard.
+1. Copy an HTML-formatted bullet list to the clipboard, such as a list from Microsoft Word.
 2. Run the BulletListFormatter executable.
 3. The tool will process the list and copy the formatted plain-text version back to the clipboard.
 4. You can now paste the formatted list into any plain-text editor, such as Notepad.
